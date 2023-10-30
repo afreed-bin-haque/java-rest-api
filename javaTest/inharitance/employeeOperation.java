@@ -1,7 +1,6 @@
 package inharitance;
-import java.util.*;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class employeeOperation extends employee{
   public static void main(String[] args) {
