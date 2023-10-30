@@ -24,18 +24,19 @@ public class firstProgram{
     int day = 4;
     switch(day){
       case 1 :
-      System.out.println("Tody is Statuday");
+      System.out.println("Today is Statuday");
       break;
       case 2 : 
-      System.out.println("Tody is Sunday");
+      System.out.println("Today is Sunday");
       break;
       case 3 : 
-      System.out.println("Tody is Monday");
+      System.out.println("Today is Monday");
       break;
       case 4:
-      System.out.println("Tody is Tuesday");
+      System.out.println("Today is Tuesday");
       break;
       default:
+      System.out.println("No match found");
       break;
     }
   }
@@ -43,7 +44,7 @@ public class firstProgram{
     firstProgram.someDataTypeExample();
     System.out.println("Default value from main class class: "+inharite);
     firstProgram.switchCase();
-     firstProgram fp = new firstProgram("Afreed Bin Haque", 1.0);
-     fp.display();
+    firstProgram fp = new firstProgram("Afreed Bin Haque", 1.0);
+    fp.display();
   }
 }
